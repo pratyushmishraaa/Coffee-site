@@ -1,0 +1,511 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-family: Arial, sans-serif;
+   background-color: #ffff;
+   color: #333;
+}
+   #navbar {
+      display: flex;
+      justify-content: space-between;
+      
+      align-items: center;
+      padding: 0 20px;
+      height: 60px; 
+      height:11vh;
+      /* background-color: #a6a1a1;  */
+    }
+
+    
+    
+    .logo img {
+      height: 50px; 
+      width: auto;
+      margin-left: 50px;
+    }
+    
+    .nav-links {
+      display: flex;
+      list-style: none;
+      flex: 2; 
+      /* justify-content: flex-start;  */
+      margin-left: 40px; 
+    }
+    
+    .nav-links li {
+      margin:0px 30px;
+      
+       
+    }
+    
+    .nav-links a {
+      text-decoration: none;
+      color: #000; 
+      font-size: 16px;
+    }
+    
+    .search-form {
+      /* flex: 1; */
+      
+      width: 300px;
+      max-width: 100%; 
+      position: relative;
+      display: flex;
+     right: 4rem;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .search-form img {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 20px;
+      
+    }
+    
+    .search-form input {
+      padding-left: 40px;
+      border: none;
+      outline: none;
+      height: 40px;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 50px;
+      cursor: pointer;
+      background-color: #f1f1f1;
+    }
+    
+    .profile {
+      flex: 0;
+    }
+    
+    .profile img {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+    }
+
+.card{
+   background-color: #1E3932;
+   height: 100%;
+   padding: 10px  10px 50px 30px;
+   height:4vh;
+   cursor: pointer;
+
+}
+.card-body-container{
+display: flex;
+position: relative;
+
+}
+.card-body-left{
+   color: #fff;
+   position: absolute;
+   font-size: 2rem;
+   left: 50px;
+   top: 10px;
+
+}
+.card-body-right{
+   position: absolute;
+   right: 100px;
+   top: 10px;
+
+}
+.card-body-right button{
+   /* margin: 10px; */
+   padding: 13px;
+   color: white;
+   background-color: #1E3932;
+   border: 1px solid white;
+   border-radius: 20px;
+   cursor: pointer;
+   
+
+  
+}
+#first-body{
+height: 48vh;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+padding-top: 40px;
+
+
+
+}
+.coro-1{
+   height: 250px;
+   width:80%;
+   background-image: url("img/back.png");
+   
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   border-radius: 10px;
+ 
+}
+.coro-img img{
+   height: 250px;
+   position: relative;
+   left: 20px;
+   
+}
+.coro-details{
+   color: #fff;
+   position: relative;
+   top: 10px;
+   
+   
+   font-weight: bold;
+}
+.coro-bt button{
+  padding: 20px;
+  position: relative;
+  right: 30px;
+  top: 70px;
+  width: 200px;
+  border-radius: 70px;
+  border: none;
+  cursor: pointer;
+   
+}
+.cont-2{
+   
+   color: #000;
+   height:50vh ;
+   
+}
+.head-2{
+   padding: 26px 0px 0px 80px;
+   
+   
+}
+.item-content{
+   display: flex;
+   justify-content: space-between;
+   
+   padding: 10px 0 0 50px;
+
+}
+.item{
+
+
+margin: 0 10px;
+padding: 20px;
+height: 180px;
+width: 80%;
+
+
+}
+.item img{
+   border-radius: 50%;
+   height: 150px;
+   width: 150px;
+}
+.item img:hover{
+   transform: scale(0.9);
+   transition: 0.4s;
+   cursor: pointer;
+   border: 2px solid #1E3932;
+
+}
+.item p{
+   display: flex;
+   flex-direction:column;
+   text-align: center;
+}
+.barista{
+   background-color:#EDEBE9;
+   height: 45vh;
+   
+}
+.barista-head {
+   display: flex;
+   
+   padding: 0 0 0 60px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.barista-head img{
+   height: 60px;
+   background: none;
+}
+.barista-sec-head{
+   
+   font-size: 1.3rem;
+   font-weight: bold;
+   color: #1E3932;
+   padding: 10px;
+   
+
+
+   
+
+
+}
+.barista-sec-head-menu {
+   
+   color: #00754A;
+ margin-left: auto;
+
+   padding: 10px;
+}
+.barista-sec-head-menu h6{
+   padding: 0 60px 0 0;
+}
+.barista-cards{
+   
+   padding: 0 40px 0 70px;
+   display: flex;
+   justify-content: space-between;
+}
+.barista-card{
+   background-color: #fff;
+   height: 170px;
+   width: 400px;
+   border-radius: 10px;
+   box-sizing: border-box;
+   display: flex;
+   
+  
+
+
+}
+.barista-card img{
+   height: 100px;
+   width: 100px;
+   border-radius: 10px;
+   position: relative;
+   top: 20px;
+   left: 20px;
+}
+.b-card-1 h5{
+   position: relative;
+   top: 30px;
+   left: 20px;
+   font-size: 15px;
+}
+.b-card-2{
+   position: relative;
+   left: 30px;
+
+}
+.b-card-2 img{
+   height: 20px;
+   width: 20px;
+}
+.b-card-2 h5{
+   position: relative;
+   left: 20px;
+   top: 5px;
+}
+.b-card-2 p{
+   position: relative;
+   left: 20px;
+   top: 5px;
+   font-size: 10px;
+}
+.b-card-2-btn{
+   position: relative;
+   left: 150px;
+   top: 50px;
+   padding: 10px 20px;
+   background-color: #00754A;
+   color: #fff;
+   border: none;
+   border-radius: 20px;
+}
+
+
+.about-coffee{
+   background-color:#EDEBE9;
+   height: 70vh;
+   
+}
+.about-coffee-head-main {
+   display: flex;
+   padding: 20px 0 0 60px;
+   justify-content: space-between;
+   align-items: center;
+   margin: 10px;
+  
+
+}
+.about-coffee-head{
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.about-coffee-head-2 {
+   
+   color: #00754A;
+ margin-left: auto;
+
+   padding: 10px;
+}
+.about-coffee-head-2  h6{
+   padding: 0 60px 0 0;
+}
+
+
+.about-coffee-body{
+   
+   height: 350px;
+   width: 80%;
+   position: relative;
+   left: 150px;
+   top: 30px;
+   border-radius: 10px;
+   background-image: url("img/coffee-story.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* width: 100%; */
+   
+   background-position: center;
+
+   transition: background-color 0.3s ease;
+}
+.about-coffee-body::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   border-radius: 10px;
+   background-color: rgba(0, 0, 0, 0); 
+   transition: background-color 0.3s ease;
+}
+
+.about-coffee-body:hover::before {
+   background-color: rgba(0, 0, 0, 0.5);
+   cursor: pointer; 
+   border-radius: 10px;
+}
+
+
+.about-coffee-btn button{
+   background-color: #fff;
+   color: #00754A;
+   border: none;
+   padding: 5px;
+   border-radius: 10px;
+   margin: 10px 0 0 50px;
+}
+.about-coffee-body-down{
+   position: relative;
+   top: 150px;
+   color: #333;
+   
+}
+.about-coffee-body-down h1,h3{
+   margin: 10px 0 0 40px;
+   
+}
+
+
+.about-coffee-body-down button{
+padding: 10px 40px;
+border-radius: 20px;
+border: none;
+margin: 0px 40px;
+font-weight: bold;
+}
+
+.footer{
+  background-color: #00754A;
+  height: 103vh;
+}
+.footer-container{
+   
+   height: 90vh;
+   width: 90%;
+   position: relative;
+   left:70px;
+   top: 90px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 10px;
+
+}
+.footer-card {
+   flex: 1 ; 
+  
+   padding: 20px;
+   box-sizing: border-box; 
+}
+.footer-card img{
+   position: relative;
+   left: 50px;
+   
+}
+.footer-card-box-2{
+   color: #ece7e7;
+}
+.footer-card-box-3{
+   color: #ece7e7;
+}
+.footer-card-box-4{
+   color: #ece7e7;
+}
+.footer-card-box-5{
+   text-align: center;
+   color: #ece7e7;
+   font-size: 20px;
+}
+.media-icons{
+   
+   display: flex;
+   position: relative;
+   top: 40px;
+}
+.media-icons img{
+   height: 40px;
+   width: 40px;
+   margin: 0 10px;
+   position: relative;
+   left: -1px;
+   
+}
+.media-icons img:hover{
+   cursor: pointer;
+}
+.footer-box-6 {
+   height: 140px;
+   width: 150px;
+
+   box-sizing: border-box;
+}
+.footer-box-6:hover{
+   cursor: pointer;
+}
+.footer-hr{
+   width: 80%;
+   position: relative;
+   left: 140px;
+   color: #333;
+}
+.footer-bottom{
+   position: relative;
+   top: 10px;
+   text-align: center;
+   color: #ece7e7;
+   
+}
+
+
+
+
+
+
+
+
+
